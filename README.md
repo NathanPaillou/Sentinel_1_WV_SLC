@@ -27,10 +27,7 @@ and then run the WV_PROCESSING_Automatic.ipynb. The path and swath variables hav
 
 
 ## Results
-The training result of my initial ```TextSimilarityDeepSiameseLSTM``` class with a LogReg classifier are the following:
 
 ![img](Example/ManVV_WV.gif)
-
-> Train Acc: 0.7993654994990785 - Val Acc: 0.7652195423623995 - Test Acc: 0.7669758812615955
 
 ## Future updates
