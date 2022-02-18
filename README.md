@@ -26,7 +26,7 @@ To execute the main code of this project, you can start a jupyter notebook and t
 
 Sentinel-1 WV data are located mostly over seas and oceans. However, depending on the period, some data are available over land areas, as shown in this image.
 
-![img](Shapefiles/3examples.png)
+![img](Shapefiles/Exemple.png)
 
 In the Shapefiles folder are available data for 8 periods. In each case, the footprints correspond to the data available between the date indicated and 12 days later, to take into account the revisit time of the Sentinel-1 satellite. The result is a global map of available data, as shown in the following image.
 
