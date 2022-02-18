@@ -36,7 +36,7 @@ In a future version, a code will be available to obtain this map for a selected 
 
 ## Data Download
 
-The easiest way to download Sentinel-1 WV mode SLC Data is to used Alaska Satellite Facility https://search.asf.alaska.edu/#/. By using filters to select L2 Ocean as File Type and WV as Beam Mode, one can see if data are available at a precise date and location. After that the desired data have to be downloaded, using the L1 Single Look Complex filter.
+The download has been made using Alaska Satellite Facility https://search.asf.alaska.edu/#/. By using filters to select L2 Ocean as File Type and WV as Beam Mode, one can see if data are available at a precise date and location. After that the desired data have to be downloaded, using the L1 Single Look Complex filter.
 
 ## Results
 
