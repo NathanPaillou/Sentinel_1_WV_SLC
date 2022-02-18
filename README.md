@@ -8,7 +8,7 @@ This is the repository for the code allowing to process Sentinel-1 WV mode SLC D
 The most important files are:
 
  - WV_PROCESSING_Automatic.ipynb notebook: this file contains the function used to unzip data and create a calibrated stack of selected swath
- - the shapefiles in the Shapefiles repository: it allows to see using Google Earth Engine for example the location of available data every 6 month. A jupyter notebook for online visualisation is going to be created soon.
+ - the shapefiles in the Shapefiles repository: it allows to see, using Google Earth Engine for example, the location of available data every 6 month. A jupyter notebook for online visualisation is going to be created soon.
 
 ## Installation
 I advise the use of Anaconda distribution to run the code of this project. An anaconda environment file has been generated and can be used to create a new working environment using the following command:
