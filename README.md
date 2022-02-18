@@ -59,6 +59,7 @@ Before these two images can be accurately compared, it is necessary to geolocate
 - Stack coregistration
 
 The expected final result after all these modifications is a calibrated, geolocated and calibrated data stack, as shown in this gif.
+
 ![img](Example/ManVV_WV.gif)
 
 With such a time series, it is possible to perform temporal processing. The following image is a time average of the intensity over 20 dates.
