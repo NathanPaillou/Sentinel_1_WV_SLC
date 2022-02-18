@@ -42,16 +42,21 @@ The easiest way to download Sentinel-1 WV mode SLC Data is to used Alaska Satell
 
 The output of the main code is matlab matrices, two by dates. For each date there is a complex matrix correspondong to the backscatter coefficients and a real matrix corresponding to sigma_0.
 
-
 This image is an example of the result obtained on a city near Manhattan. To be comparable to an IW image obtained on Google Earth Engine, it has been multi-looked with a 5x5 window size.
 
 ![img](Example/WV_Multilook_5.png)
 
-
+By comparing these two images, we can easily see that the WV data allows a better study of this area due to its better resolution. It is, for example, possible to try to detect roads on the WV image while they are not visible on the IW image. 
 
 ![img](Example/IW_GEE.png)
 
+Before these two images can be accurately compared, it is necessary to geolocate the WV data. In a future version, this step will be performed.
+
 ## Future updates
+- Jupyter notebook for shapefiles visualisation
+- Jupyter notebook to obtain available data at a precise date
+- Data Geolocalisation
+- Stack coregistration
 
 ![img](Example/ManVV_WV.gif)
 
