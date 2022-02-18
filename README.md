@@ -18,16 +18,18 @@ conda env create -f environment.yml
 
 
 ## Execution
-To execute the main code of this project, you can type :
-```shell
-cd notebook
-jupyter notebook
-```
-and then run the WV_PROCESSING_Automatic.ipynb. The path and swath variables have to be edited.
+To execute the main code of this project, you can start a jupyter notebook and then run the WV_PROCESSING_Automatic.ipynb. The path and swath variables have to be edited.
+
+## Available Data
 
 
 ## Results
 
-![img](Example/ManVV_WV.gif)
+
 
 ## Future updates
+
+![img](Example/ManVV_WV.gif)
+
+
+![img](Example/WV_Temporal_20_Dates.gif)
