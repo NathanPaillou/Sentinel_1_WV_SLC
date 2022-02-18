@@ -20,16 +20,20 @@ conda env create -f environment.yml
 ## Execution
 To execute the main code of this project, you can start a jupyter notebook and then run the WV_PROCESSING_Automatic.ipynb. The path and swath variables have to be edited.
 
-## Available Data
+## Available Data
 
+![img](Shapefiles/swathall.png)
+
+![img](Shapefiles/3examples.png)
 
 ## Results
 
+![img](Example/WV_Multilook_5.png)
 
+![img](Example/IW_GEE.png)
 
 ## Future updates
 
 ![img](Example/ManVV_WV.gif)
 
-
-![img](Example/WV_Temporal_20_Dates.gif)
+![img](Example/WV_Temporal_20Dates.png)
