@@ -7,7 +7,7 @@ This is the repository for the code allowing to process Sentinel-1 WV mode SLC D
 
 The most important files are:
 
- - WV_PROCESSING_Automatic.ipynb notebook: this file contains the function used to unzip data and create a calibrated stack of selected swath
+ - WV_PROCESSING_Automatic.ipynb notebook: this file contains the function used to unzip data and create a calibrated stack of the selected swath
  - the shapefiles in the Shapefiles repository: it allows to see, using Google Earth Engine for example, the location of available data every 6 month. A jupyter notebook for online visualisation is going to be created soon.
 
 
@@ -36,14 +36,20 @@ In a future version, a code will be available to obtain this map for a selected 
 
 ## Data Download
 
-https://search.asf.alaska.edu/#/
+The easiest way to download Sentinel-1 WV mode SLC Data is to used Alaska Satellite Facility https://search.asf.alaska.edu/#/. By using filters to select L2 Ocean as File Type and WV as Beam Mode, one can see if data are available at a precise date and location. After that the desired data have to be downloaded, using the L1 Single Look Complex filter.
 
 ## Results
 
+The output of the main code is matlab matrices, two by dates. For each date there is a complex matrix correspondong to the backscatter coefficients and a real matrix corresponding to sigma_0.
+
+
+This image is an example of the result obtained on a city near Manhattan. To be comparable to an IW image obtained on Google Earth Engine, it has been multi-looked with a 5x5 window size.
+
 ![img](Example/WV_Multilook_5.png)
 
-![img](Example/IW_GEE.png)
 
+
+![img](Example/IW_GEE.png)
 
 ## Future updates
 
