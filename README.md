@@ -7,7 +7,8 @@ This is the repository for the code allowing to process Sentinel-1 WV mode SLC D
 
 The most important files are:
 
- - WV_PROCESSING_Automatic.ipynb notebook: this file contains the function used to unzip data and create a calibrated stack of the selected swath
+ - WV_PROCESSING_Automatic.ipynb notebook: this file contains the function used to unzip data and create a calibrated stack of the selected swath. The calibration procedure is based on the following document : "Radiometric Calibration of S-1 Level-1 Products Generated
+by the S-1 IPF" (https://sentinels.copernicus.eu/documents/247904/685163/S1-Radiometric-Calibration-V1.0.pdf/66e69a62-11ae-4160-916b-f2b97cb8a350?t=1432307754000)
  - the shapefiles in the Shapefiles repository: it allows to see, using Google Earth Engine for example, the location of available data every 6 month. A jupyter notebook for online visualisation is going to be created soon.
 
 
