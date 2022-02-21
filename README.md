@@ -31,7 +31,7 @@ Sentinel-1 WV data are located mostly over seas and oceans. This mode offers a p
 
 In the Shapefiles folder are available data for 8 periods. In each case, the footprints correspond to the data available between the date indicated and 12 days later, to take into account the revisit time of the Sentinel-1 satellite. The result is a global map of available data, as shown in the following image.
 
-![img](Shapefiles/swathall.png)
+![img](Shapefiles/Shapefile_Example.png)
 
 In a future version, a code will be available to obtain this map for a selected period.
 
