@@ -39,7 +39,7 @@ In a future version, a code will be available to obtain this map for a selected 
 
 The download has been made using Alaska Satellite Facility https://search.asf.alaska.edu/#/. By using filters to select L2 Ocean as File Type and WV as Beam Mode, one can see if data are available at a precise date and location. After that the desired data have to be downloaded, using the L1 Single Look Complex filter.
 
-## Results
+## Results  
 
 The output of the main code is matlab matrices, two by dates. For each date there is a complex matrix correspondong to the backscatter coefficients and a real matrix corresponding to sigma_0.
 
