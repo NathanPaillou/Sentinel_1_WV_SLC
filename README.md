@@ -71,7 +71,7 @@ Before these two images can be accurately compared, it is necessary to geolocate
 The expected final result after all these modifications is a calibrated, geolocated and calibrated data stack, as shown in this gif.
 
 <p align="center">
-  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/Manhattan_region_vv_WV.gif" />
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/Manhattan_region_VV_WV.gif" />
 </p>
 
 With such a time series, it is possible to perform temporal processing. The following image is a time average of the intensity over 20 dates.
