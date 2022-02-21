@@ -51,6 +51,11 @@ By comparing these two images, we can easily see that the WV data allows a bette
 
 ![img](Example/IW_GEE.png)
 
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/IW_GEE.png" />
+</p>
+
+
 Before these two images can be accurately compared, it is necessary to geolocate the WV data. In a future version, this step will be performed.
 
 ## Future updates
