@@ -27,11 +27,14 @@ To execute the main code of this project, you can start a jupyter notebook and t
 
 Sentinel-1 WV data are located mostly over seas and oceans. This mode offers a particular acquisition pattern described in the following link: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/wave.  However, depending on the period, some data are available over land areas, as shown in this image.
 
-![img](Shapefiles/Areas_example.png)
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Shapefiles/Areas_example.png" />
+</p>
 
 In the Shapefiles folder are available data for 8 periods. In each case, the footprints correspond to the data available between the date indicated and 12 days later, to take into account the revisit time of the Sentinel-1 satellite. The result is a global map of available data, as shown in the following image.
-
-![img](Shapefiles/Shapefile_Example.png)
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Shapefiles/Shapefile_Example.png" />
+</p>
 
 In a future version, a code will be available to obtain this map for a selected period.
 
@@ -45,14 +48,15 @@ The output of the main code is matlab matrices, two by dates. For each date ther
 
 This image is an example of the result obtained on a city near Manhattan. To be comparable to an IW image obtained on Google Earth Engine, it has been multi-looked with a 5x5 window size.
 
-![img](Example/WV_Multilook_5.png)
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/WV_MLC_55.png" />
+</p>
 
 By comparing these two images, we can easily see that the WV data allows a better study of this area due to its better resolution. It is, for example, possible to try to detect roads on the WV image while they are not visible on the IW image. 
 
-![img](Example/IW_GEE.png)
 
 <p align="center">
-  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/IW_GEE.png" />
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/IW_GRD.png" />
 </p>
 
 
@@ -66,8 +70,12 @@ Before these two images can be accurately compared, it is necessary to geolocate
 
 The expected final result after all these modifications is a calibrated, geolocated and calibrated data stack, as shown in this gif.
 
-![img](Example/ManVV_WV.gif)
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/Manhattan_region_vv_WV.gif" />
+</p>
 
 With such a time series, it is possible to perform temporal processing. The following image is a time average of the intensity over 20 dates.
 
-![img](Example/WV_Temporal_20Dates.png)
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/WV_Temporal_20.png" />
+</p>
