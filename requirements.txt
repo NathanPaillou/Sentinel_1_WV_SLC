@@ -1,0 +1,18 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: linux-64
+_libgcc_mutex=0.1=conda_forge
+_openmp_mutex=4.5=1_llvm
+
+geopandas=0.10.2=pyhd8ed1ab_1
+geopandas-base=0.10.2=pyha770c72_1
+geos=3.10.2=h9c3ff4c_0
+imageio=2.9.0=py_0
+ipyleaflet=0.15.0=pyhd8ed1ab_3
+ipywidgets=7.6.5=pyhd8ed1ab_0
+json-c=0.15=h98cffda_0
+json5=0.9.5=pyh9f0ad1d_0
+natsort=8.1.0=pyhd8ed1ab_0
+numpy=1.21.3=py39hdbf815f_0
+rasterio=1.2.10=py39h0401cea_4
+scipy=1.7.1=py39hee8e79c_0
