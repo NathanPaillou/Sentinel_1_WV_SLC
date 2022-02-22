@@ -1,3 +1,5 @@
+Project realized by Thomas Di Martino, Nathan Paillou and Thibault Taillade
+
 # Ongoing Project, Sentinel-1 WV (WAVE) mode SLC Data process
 
 This is the repository for the code allowing to process Sentinel-1 WV mode SLC Data. The main motivation of this contribution is driven by the fact that Level 1 WV mode is currently not well supported by SNAP (https://step.esa.int/main/download/snap-download/). This mode provides however higher resolution capabilities than the IW mode (Interferometric Wide Swath). Having a peculiar acquisition pattern that is prohibitive for large scale Land analysis, it might be of interest for experimental studies in diverse applications. This is an ongoing project, some functions are still to be checked and others will be added.
