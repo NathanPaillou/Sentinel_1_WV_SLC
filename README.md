@@ -1,4 +1,4 @@
-Project realized by Thomas Di Martino, Nathan Paillou and Thibault Taillade
+Project realised by Thomas Di Martino, Nathan Paillou and Thibault Taillade
 
 # Ongoing Project, Sentinel-1 WV (WAVE) mode SLC Data process
 
