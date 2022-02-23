@@ -6,5 +6,16 @@ The jupyter notebook Interactive_Map.ipynb takes the folder containing the shape
 
 The following images are obtained with the dataset provided, with a value of 0 then 1 for the **createValidatedShapefiles** parameter. In this example, the ratio between the number of shapefiles used in total and on land is about 25.
 
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Interactive_Shapefile_Project/InteractiveMapFull.png" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Interactive_Shapefile_Project/InteractiveMapFullLand.png" />
+</p>
 
 When the mouse cursor browses a marker, an identifier is obtained, allowing the corresponding data to be downloaded. The last number corresponds to the swath number of the WV SLC data. The rest of the identifier corresponds to the mission data-take identifier and the unique product identifier. With this information and the acquisition date, it is possible to find the corresponding data and download it easily. It is easy to download the time stack above this area by retrieving the path and frame of this data.
+
+<p align="center">
+  <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Interactive_Shapefile_Project/InteractiveMapHovering.png" />
+</p>
