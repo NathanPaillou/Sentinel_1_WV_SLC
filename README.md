@@ -76,3 +76,6 @@ With such a time series, it is possible to perform temporal processing. The foll
 <p align="center">
   <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/WV_Temporal_20.png" />
 </p>
+
+WV Sentinel 1 images may be of interest for dedicated study where higher resolution than IW mode is required, yet not exploited by the community.
+Indeed, even though the WV mode acquisition pattern enable only the imaging of vignettes (20 x 20 km every 100km), its temporal consistency in some land areas may represent an interesting source of information.
