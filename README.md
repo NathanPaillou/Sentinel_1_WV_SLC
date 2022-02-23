@@ -48,23 +48,16 @@ The download has been made using Alaska Satellite Facility https://search.asf.al
 
 ## Results  
 
-The output of the main code is matlab matrices, two by dates. For each date there is a complex matrix correspondong to the backscatter coefficients and a real matrix corresponding to sigma_0.
+The output of the main code is matlab matrices, two matrices per dates. For each date there is a complex matrix correspondong to the backscatter coefficients and a real matrix corresponding to sigma_0.
 
-This image is an example of the result obtained on a city near Manhattan. To be comparable to an IW image obtained on Google Earth Engine, it has been multi-looked with a 5x5 window size.
+We compare here visualy the results obtained on a city near Manhattan. On the left is a calibrated WV image (multi-looked with a 5x5 window size) and on the right an IW image obtained on Google Earth Engine.
 
-<p align="center">
+<p float="letf">
   <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/WV_MLC_55.png" />
-</p>
-
-By comparing these two images, we can easily see that the WV data allows a better study of this area due to its better resolution. It is, for example, possible to try to detect roads on the WV image while they are not visible on the IW image. 
-
-
-<p align="center">
   <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Example/IW_GRD.png" />
 </p>
 
-
-Before these two images can be accurately compared, it is necessary to geolocate the WV data. In a future version, this step will be performed.
+By comparing visualy these two images, we can easily see that the WV data allows a better study of this area due to its better resolution. It is, for example, possible to try to detect roads on the WV image while they are not visible on the IW image. Before these two images can be accurately compared, it is necessary to geolocate the WV data. In a future version, this step will be performed.
 
 ## Future updates
 - Jupyter notebook for shapefiles visualisation
