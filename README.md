@@ -29,7 +29,7 @@ To execute the main code of this project, you can start a jupyter notebook and t
 
 ## Available Data
 
-Sentinel-1 WV data are located mostly over seas and oceans. This mode offers a particular acquisition pattern described in the following link: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/wave.  However, depending on the period, some data are available over land areas, as shown in this image.
+Sentinel-1 WV data are located mostly over seas and oceans only in VV polarization. This mode offers a particular acquisition pattern described in the following link: https://sentinels.copernicus.eu/web/sentinel/user-guides/sentinel-1-sar/acquisition-modes/wave.  However, depending on the period, some data are available over land areas, as shown in this image.
 
 <p align="center">
   <img src="https://github.com/NathanPaillou/Sentinel_1_WV_SLC/blob/main/Shapefiles/Areas_example.png" />
